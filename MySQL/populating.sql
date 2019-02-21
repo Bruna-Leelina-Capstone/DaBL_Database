@@ -1,0 +1,16 @@
+use user;
+insert into users values("Aldenderfer, Kristof","7A 6B 8B D1","04 E9 04 12 FF 38 84","Manager","2017-07-10 00:00:00","2019-01-30 19:50:56","1","1","1","1","1","1","0", "0", "0");
+insert into users values("Wilson, Josh","0E 45 03 06","","Specialist","2018-02-12 00:00:00","2019-01-30 20:04:03","1","1","1","1","1","1","0");
+insert into users values("Meves, Alex","UID":"03 0B 91 AE","UIDprev":"CA 6C 67 D1","membertype":"Specialist","membersince":"2018-02-12 00:00:00","lastaccess":"2019-01-29 12:36:50","waiver":"1","series1pro":"1","uprintseplus":"1","jaguarvlx":"1","bantamtools":"1","pls475":"1","sewing":"0");
+insert into users values("Kommel, Alex","UID":"","UIDprev":"","membertype":"Student","membersince":"2018-02-12 00:00:00","lastaccess":"2018-02-12 00:00:00","waiver":"0","series1pro":"0","uprintseplus":"0","jaguarvlx":"0","bantamtools":"0","pls475":"0","sewing":"0");
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();
+insert into users values();

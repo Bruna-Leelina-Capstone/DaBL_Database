@@ -1,3 +1,8 @@
+create database if not exists user;
+
+use user;
+
+
 create table if not exists users (
     user_name varchar(100) not null,
     uid varchar(20) not null primary key,
@@ -40,7 +45,7 @@ create table if not exists tools (
 create table if not exists access_log (
 	user_name varchar(100),
     uid varchar(20) primary key,
-	access_time datetime
+	access_time datetime,
     uid varchar(20) primary key
 );
 
