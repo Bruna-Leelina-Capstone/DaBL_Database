@@ -3,34 +3,293 @@
   </head>
 
   <body>
-    <div class="divider">
+    <div class="divider centerDiv">
       <h1>H1 Heading Style</h1>
     </div>
-    <div class="divider">
+    <div class="divider centerDiv">
       <h2>H2 Heading Style</h2>
     </div>
-    <div class="divider">
+    <div class="divider centerDiv">
       <h3>H3 Heading Style</h3>
     </div>
-    <div class="divider">
+    <div class="divider centerDiv">
       <h4>H4 Heading Style</h4>
     </div>
-    <div class="divider">
+    <div class="divider centerDiv">
+      <p>Paragraph Style</p>
+    </div>
+    <div class="divider centerDiv">
       <button href=# class="primaryButton"> Update </button>
       <button href=# class="primaryButton largeButton"> Add New Member </button>
     </div>
-    <div class="divider">
+    <div class="divider centerDiv">
       <button href=# class="secondaryButton"> Delete </button>
     </div>
-    <div class="divider">
+    <div class="divider centerDiv">
       <button href=# class="warningButton"> Delete </button>
     </div>
-    <div class="divider">
+    <div class="divider centerDiv">
       <form>
         <input type="text" class="primaryTextBox" placeholder="search members">
-        <input type="submit" class="primaryButton largeButton" name="AccessDatabase">
+        <input type="submit" class="primaryButton largeButton sideSpacing" name="AccessDatabase">
       </form>
     </div>
+
+    <div class="divider">
+    </div>
+
+      <div class="memberDiv centerDiv">
+        <h2> New Member Info </h2>
+        <form>
+          <div class="formTop formSpacing divSplit">
+            <div class="topSection">
+              <label for="name"> MEMBER NAME <br/> </label>
+              <input id="name" type="text" class="newMemberTextBox" placeholder="member name">
+            </div>
+
+            <div class="topSection">
+              <label for="title"> MEMBER TITLE <br/> </label>
+              <input id="title" type="text" class="newMemberTextBox" placeholder="member title">
+            </div>
+          </div>
+
+          <div class="formMiddle formSpacing divSplit">
+            <div class="bottomSection">
+              <label for="uid"> UID <br/> </label>
+              <input id="uid" type="text" class="newMemberTextBox infoTextBox" placeholder="uid">
+            </div>
+
+            <div class="bottomSection">
+              <label for="since"> MEMBER SINCE <br/> </label>
+              <input id="since" type="text" class="newMemberTextBox infoTextBox" placeholder="member since">
+            </div>
+
+            <div class="bottomSection">
+              <label for="access"> LAST ACCESS <br/> </label>
+              <input id="access" type="text" class="newMemberTextBox infoTextBox" placeholder="last access">
+            </div>
+
+            <div class="bottomSection">
+              <label for="current"> CURRENT PROJECTS <br/> </label>
+              <input id="current" type="text" class="newMemberTextBox infoTextBox" placeholder="current projects">
+            </div>
+
+            <div class="bottomSection">
+              <label for="total"> TOTAL PROJECTS <br/> </label>
+              <input id="total" type="text" class="newMemberTextBox infoTextBox" placeholder="total projects">
+            </div>
+
+            <div class="bottomSection">
+              <label for="waiver"> WAIVER <br/> </label>
+              <label class="container">Yes
+                <input id="waiver "type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="formBottom formSpacing divSplit">
+            <div class="bottomSection">
+              <label for="series"> SERIES1PRO <br/> </label>
+              <label class="container">Yes
+                <input id="series" type="radio" checked="checked" name="radio1">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio1">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="uprint"> UPRINTSEPLUS <br/> </label>
+              <label class="container">Yes
+                <input id="uprint" type="radio" checked="checked" name="radio2">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio2">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="jaguar"> JAGUARVLX <br/> </label>
+              <label class="container">Yes
+                <input id="jaguar" type="radio" checked="checked" name="radio3">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio3">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="bantam"> BANTAMTOOLS <br/> </label>
+              <label class="container">Yes
+                <input id="bantam" type="radio" checked="checked" name="radio4">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio4">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="pls"> PLS475 <br/> </label>
+              <label class="container">Yes
+                <input id="pls" type="radio" checked="checked" name="radio5">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio5">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="sewing"> SEWING <br/> </label>
+              <label class="container">Yes
+                <input id="sewing "type="radio" checked="checked" name="radio6">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio6">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <br/>
+          <input type="submit" class="primaryButton" name="AddMember">
+          <input type="button" value="cancel" class="secondaryButton sideSpacing" name="AddCancel" onClick="#">
+        </form>
+      </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="ctaContainer greyDiv">
+      <h3> ADD A NEW MEMBER? </h3>
+      <p> Want to add a new member? Skip the search process and head over to the new member sign up. </p>
+      <button href=# class="centerButton primaryButton largeButton topSpacing"> Add New Member </button>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="toolsDiv">
+      <div class="bottomHeight centerDiv">
+        <h2 class="lightType"> DaBL CaTS Admin Interface </h2>
+        <h1 class="lightType"> MEMBER OPTIONS </h1>
+        <form>
+          <input type="text" class="primaryTextBox" placeholder="search members">
+          <input type="submit" class="primaryButton" name="searchMember">
+        </form>
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="headingContainer centerDiv lightDiv">
+      <h2> Member Info </h2>
+      <p> To view a member’s info, look up a name or UID using the search bar above. </p>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="headingContainer centerDiv lightDiv">
+      <h2> Member Info </h2>
+      <p> Member not found! Would you like to add a new member? </p>
+      <button href=# class="primaryButton largeButton topSpacing"> Add New Member </button>
+    </div>
+
+    <div class="memberDiv centerDiv lightDiv">
+      <h2> Member Info </h2>
+      <div class="formTop formSpacing divSplit">
+        <div class="topSection" id="memberInfo">
+          <h3 class="orangeType"> KRISTOF ALDENDERFER <br/> </h3>
+        </div>
+
+        <div class="topSection">
+          <h4> manager </h4>
+        </div>
+      </div>
+
+      <div class="formMiddle formSpacing divSplit">
+        <div class="bottomSection">
+          <label> UID <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label> MEMBER SINCE <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label> LAST ACCESS <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label> current projects <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label> total projects <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label> waiver <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+      </div>
+
+      <div class="formBottom formSpacing divSplit">
+        <div class="bottomSection">
+          <label> series1pro <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label for="uprint"> uprintseplus <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label for="jaguar"> jaguarvlx <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label for="bantam"> bantamtools <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label for="pls"> pls475 <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+
+        <div class="bottomSection">
+          <label> sewing <br/> </label>
+          <p> 03 0B 91 AE </p>
+        </div>
+      </div>
+      <button href=# class="primaryButton topSpacing"> Update </button>
+      <button href=# class="secondaryButton topSpacing sideSpacing"> Delete </button>
+    </div>
+
     <div class="divider">
     </div>
 
@@ -43,6 +302,7 @@
     }
 
     body {
+      margin: 0;
       font-family: Montserrat;
     }
 
@@ -75,6 +335,22 @@
       text-transform: uppercase;
     }
 
+    p {
+      font-size: 16px;
+      margin: 0px;
+      padding-top: 15px;
+      color: #222222;
+    }
+
+    .ctaContainer>p {
+      padding-top: 10px !important;
+      text-align: center;
+    }
+
+    .topSection, .bottomSection > p {
+      padding-top: 5px;
+    }
+
     .orangeType {
       color: #F36D0C !important;
     }
@@ -85,6 +361,20 @@
 
     .blueType {
       color: #3EC1EA !important;
+    }
+
+    /* form typography */
+    label {
+      font-size: 12px;
+      margin: 0px;
+      color: #333333;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .container {
+      font-weight: normal;
+      text-transform: none;
     }
 
     /* BUTTON STYLING */
@@ -147,7 +437,12 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
-    /* forms */
+    .centerButton {
+      margin: 0px auto;
+      display: block;
+    }
+
+    /* FORMS */
     .primaryTextBox {
       width: 440px;
       height: 35px;
@@ -158,12 +453,93 @@
       opacity: .85;
       font: #777777;
       padding-left: 25px;
-      margin-right: 25px;
+      /* margin-right: 25px; */
       font-size: 18px;
       font-style: italic;
       text-transform: lowercase;
       cursor: pointer;
     }
+
+    .memberDiv {
+      /* width: 80%; */
+      padding-top: 45px;
+      padding-bottom: 45px;
+      /* margin-left: 10%; */
+    }
+
+    .divSplit {
+      display: flex;                  /* establish flex container */
+      flex-direction: row;            /* default value; can be omitted */
+      flex-wrap: nowrap;              /* default value; can be omitted */
+      justify-content: space-between; /* switched from default (flex-start, see below) */
+    }
+
+    .topSection {
+      /* width:555px; */
+      width: 50%;
+      padding-right: 25px;
+    }
+
+    .bottomSection {
+      width:14.2%;
+      padding-right: 25px;
+    }
+
+    form {
+      margin: 0px;
+    }
+
+    .newMemberTextBox {
+      width: 100%;
+      height: 35px;
+      border-width:1.5px;
+      border-color: #333333;
+      background-color: #f5f5f5;
+      font: #777777;
+      padding-left: 25px;
+      margin-right: 25px;
+      margin-top: 5px;
+      font-size: 12px;
+      font-style: italic;
+      text-transform: lowercase;
+      cursor: pointer;
+    }
+
+    .infoTextBox {
+      /* width: 175px; */
+      width: 100%;
+      margin-right: 15px;
+    }
+
+    .checkmark {
+      margin-right: 15px;
+    }
+
+    .formSpacing {
+      margin-top: 20px;
+    }
+
+    /* spacing */
+    .sideSpacing {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+
+    .topSpacing {
+      margin-top: 25px;
+    }
+
+    .centerDiv {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    /* .centerDiv {
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+    } */
 
     /* backgrounds */
     .whiteDiv {
@@ -172,6 +548,33 @@
 
     .greyDiv {
       background-color: #f5f5f5;
+    }
+
+    .ctaContainer {
+      padding-top: 15px;
+      padding-bottom: 25px;
+      text-align: center;
+    }
+
+    .toolsDiv {
+      position: relative;
+      /* background-image: url(tool_rack_header.jpg); */
+      /* background-size: cover; */
+      /* overlay...Not working */
+      background-color: rgba(0,0,0,.25) !important;
+      height: 65%;
+      width: 100%;
+    }
+
+    .bottomHeight {
+      position: absolute;
+      bottom: 0px;
+      margin-bottom: 50px;
+    }
+
+    .headingContainer {
+      padding-top: 45px;
+      padding-bottom: 45px;
     }
 
 
