@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
+    
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        </head>
    
     <br>
     <div class="search">
@@ -30,6 +35,12 @@
         
         <div>
         <button href=# class="primaryButton" onclick="myFunction2()" > Update </button>
+        </div>
+        
+        <br>
+        <div class="access" >
+            <i class="fas fa-exclamation-triangle"></i>
+            <p> Access denied! </p>
         </div>
 
 <br>
@@ -280,6 +291,27 @@ function myFunction2() {
     </div>
 </body>
 <style>
+        
+        i {
+            color: #CA4217;
+            padding-top: 20px;
+        }
+        
+        .access {
+            background-image: url(images/Screen%20Shot%202019-04-06%20at%202.10.44%20PM.png);
+            padding: 5px 15px 5px 15px;
+            background-color: #F5F5F5;
+            width: 150px;
+            height: 50px;
+        }
+        
+        .access p {
+            font-family: 'Montserrat';
+            font-size: 18px;
+            color: #CA4217;
+            float: right;
+            text-align: center;
+        }
     
     hr {
         width: 1000px;
@@ -291,7 +323,7 @@ function myFunction2() {
     body {
       margin: 0;
       font-family: Montserrat;
-      background-color: aliceblue;
+      background-color: darkgray;
       background-size: cover;
     }
     
@@ -397,12 +429,12 @@ function myFunction2() {
     }
     
     a:hover {
-        color: #F36D0C;
+        color: #000000;
     } 
     
     a {
         text-decoration: none;
-        color: #333333;
+        color: #676767;
         
     }
     
