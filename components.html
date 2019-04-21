@@ -1,0 +1,318 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <body>
+    <div class="whiteDiv">
+      <div class="divider centerDiv">
+        <h1>H1 Heading Style</h1>
+      </div>
+      <div class="divider centerDiv">
+        <h2>H2 Heading Style</h2>
+      </div>
+      <div class="divider centerDiv">
+        <h3>H3 Heading Style</h3>
+      </div>
+      <div class="divider centerDiv">
+        <h4>H4 Heading Style</h4>
+      </div>
+      <div class="divider centerDiv">
+        <p>Paragraph Style</p>
+      </div>
+      <div class="divider centerDiv">
+        <button href=# class="primaryButton"> Update </button>
+        <button href=# class="primaryButton largeButton"> Add New Member </button>
+      </div>
+      <div class="divider centerDiv">
+        <button href=# class="secondaryButton"> Delete </button>
+      </div>
+      <div class="divider centerDiv">
+        <button href=# class="warningButton"> Delete </button>
+      </div>
+      <div class="divider centerDiv">
+        <form>
+          <input type="text" class="primaryTextBox" placeholder="search members">
+          <input type="submit" class="primaryButton largeButton sideSpacing" name="AccessDatabase">
+        </form>
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="whiteDiv">
+      <div class="memberDiv centerDiv">
+        <h2> New Member Info </h2>
+        <form>
+          <div class="formTop formSpacing divSplit">
+            <div class="topSection">
+              <label for="name"> MEMBER NAME <br/> </label>
+              <input id="name" type="text" class="newMemberTextBox" placeholder="member name">
+            </div>
+
+            <div class="topSection">
+              <label for="title"> MEMBER TITLE <br/> </label>
+              <input id="title" type="text" class="newMemberTextBox" placeholder="member title">
+            </div>
+          </div>
+
+          <div class="formMiddle formSpacing divSplit">
+            <div class="bottomSection">
+              <label for="uid"> UID <br/> </label>
+              <input id="uid" type="text" class="newMemberTextBox infoTextBox" placeholder="uid">
+            </div>
+
+            <div class="bottomSection">
+              <label for="since"> MEMBER SINCE <br/> </label>
+              <input id="since" type="text" class="newMemberTextBox infoTextBox" placeholder="member since">
+            </div>
+
+            <div class="bottomSection">
+              <label for="access"> LAST ACCESS <br/> </label>
+              <input id="access" type="text" class="newMemberTextBox infoTextBox" placeholder="last access">
+            </div>
+
+            <div class="bottomSection">
+              <label for="current"> CURRENT PROJECTS <br/> </label>
+              <input id="current" type="text" class="newMemberTextBox infoTextBox" placeholder="current projects">
+            </div>
+
+            <div class="bottomSection">
+              <label for="total"> TOTAL PROJECTS <br/> </label>
+              <input id="total" type="text" class="newMemberTextBox infoTextBox" placeholder="total projects">
+            </div>
+
+            <div class="bottomSection">
+              <label for="waiver"> WAIVER <br/> </label>
+              <label class="container">Yes
+                <input id="waiver "type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="formBottom formSpacing divSplit">
+            <div class="bottomSection">
+              <label for="series"> SERIES1PRO <br/> </label>
+              <label class="container">Yes
+                <input id="series" type="radio" checked="checked" name="radio1">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio1">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="uprint"> UPRINTSEPLUS <br/> </label>
+              <label class="container">Yes
+                <input id="uprint" type="radio" checked="checked" name="radio2">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio2">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="jaguar"> JAGUARVLX <br/> </label>
+              <label class="container">Yes
+                <input id="jaguar" type="radio" checked="checked" name="radio3">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio3">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="bantam"> BANTAMTOOLS <br/> </label>
+              <label class="container">Yes
+                <input id="bantam" type="radio" checked="checked" name="radio4">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio4">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="pls"> PLS475 <br/> </label>
+              <label class="container">Yes
+                <input id="pls" type="radio" checked="checked" name="radio5">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio5">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="bottomSection">
+              <label for="sewing"> SEWING <br/> </label>
+              <label class="container">Yes
+                <input id="sewing "type="radio" checked="checked" name="radio6">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">No
+                <input type="radio" name="radio6">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <br/>
+          <input type="submit" class="primaryButton" name="AddMember">
+          <input type="button" value="cancel" class="secondaryButton sideSpacing" name="AddCancel" onClick="#">
+        </form>
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="ctaContainer greyDiv">
+      <h3> ADD A NEW MEMBER? </h3>
+      <p> Want to add a new member? Skip the search process and head over to the new member sign up. </p>
+      <button href=# class="centerButton primaryButton largeButton topSpacing"> Add New Member </button>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="toolsDiv">
+      <div class="bottomHeight centerDiv">
+        <h2 class="lightType"> DaBL CaTS Admin Interface </h2>
+        <h1 class="lightType"> MEMBER OPTIONS </h1>
+        <form>
+          <input type="text" class="primaryTextBox" placeholder="search members">
+          <input type="submit" class="primaryButton" name="searchMember">
+        </form>
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="whiteDiv">
+      <div class="headingContainer centerDiv">
+        <h2> Member Info </h2>
+        <p> To view a member’s info, look up a name or UID using the search bar above. </p>
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="whiteDiv">
+      <div class="headingContainer centerDiv">
+        <h2> Member Info </h2>
+        <p> Member not found! Would you like to add a new member? </p>
+        <button href=# class="primaryButton largeButton topSpacing"> Add New Member </button>
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+    <div class="whiteDiv">
+      <div class="memberDiv centerDiv">
+        <h2> Member Info </h2>
+        <div class="formTop formSpacing divSplit">
+          <div class="topSection" id="memberInfo">
+            <h3 class="orangeType"> KRISTOF ALDENDERFER <br/> </h3>
+          </div>
+
+          <div class="topSection">
+            <h4> manager </h4>
+          </div>
+        </div>
+
+        <div class="formMiddle formSpacing divSplit">
+          <div class="bottomSection">
+            <label> UID <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label> MEMBER SINCE <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label> LAST ACCESS <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label> current projects <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label> total projects <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label> waiver <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+        </div>
+
+        <div class="formBottom formSpacing divSplit">
+          <div class="bottomSection">
+            <label> series1pro <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label for="uprint"> uprintseplus <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label for="jaguar"> jaguarvlx <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label for="bantam"> bantamtools <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label for="pls"> pls475 <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+
+          <div class="bottomSection">
+            <label> sewing <br/> </label>
+            <p> 03 0B 91 AE </p>
+          </div>
+        </div>
+        <button href=# class="primaryButton topSpacing"> Update </button>
+        <button href=# class="secondaryButton topSpacing sideSpacing"> Delete </button>
+      </div>
+    </div>
+
+    <div class="divider">
+    </div>
+
+  </body>
+
+  <style>
+    .divider {
+      margin: 25px;
+    }
+  </style>
+
+</html>
