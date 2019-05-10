@@ -19,7 +19,7 @@
             <li><a class="tableOpt" href="table-options.cfm">Table Options</a></li>
         </nav>
     </div>
-    <form method="get" action="test.html">
+    <form method="get" action="login.php">
         <button style="font-size:20px;color: #3EC1EA; margin-left: 93%;"><i class="fa fa-power-off"></i></button>
     </form>
     

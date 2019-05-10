@@ -23,7 +23,7 @@
       </nav>
     </div>  
       <!-- <i class="fa fa-power-off" style="font-size:30px;color: #3EC1EA; padding-left: 1200px;"></i> -->
-    <form method="get" action="test.html">
+    <form method="get" action="login.php">
       <button style="font-size:20px;color: #3EC1EA; margin-left: 93%;"><i class="fa fa-power-off"></i></button>
     </form>
       

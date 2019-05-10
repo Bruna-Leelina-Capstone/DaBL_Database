@@ -18,7 +18,7 @@
     </div>
 
     
-      <form method="get" action="test.html">
+      <form method="get" action="login.php">
         <button id="powerbtn" style="font-size:20px;color: #3EC1EA; margin-left: 93%;"><i class="fa fa-power-off"></i></button>
       </form>
    
